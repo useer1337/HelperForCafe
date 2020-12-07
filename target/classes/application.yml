@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/helper_db
+    username: helper
+    password: 123
+  flyway:
+    url: jdbc:postgresql://localhost:5432/helper_db
+    user: helper
+    password: 123
+
